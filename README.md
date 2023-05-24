@@ -22,6 +22,7 @@ No installation is required for this project. Simply open the index.html file in
 5. The operation history will be logged on the console.
 6. To download the logging file, click the "Download logging file" link.
 
+    Or visit site https://tohoast09.github.io/Add2Numbers/
 ## Code Structure
 
 1. The HTML file (index.html) contains the structure and user interface of the web application.
