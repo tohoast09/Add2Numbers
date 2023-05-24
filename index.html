@@ -10,7 +10,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Chương trình cộng 2 số lớn </h1>
+    <div class="head">
+        <h1>Chương trình cộng 2 số lớn </h1>
+        <p>Đây là chương trình xử lý phép cộng (như cách mà học sinh tiêu học thực hiện hép cộng 2 số lại với nhau), sau khi thực hiện xong phép tính, <b>bạn có thể tải file download các bước giải về máy mình bằng cách nhấn vào link xuất hiện ở cuối trang</b>.</p>
+        <p>Ví dụ, nếu bạn nhập vào 2 số: "1234" và "897" thì chương trình sẽ thực hiện như sau:</p>
+        <ol>
+            <li> Lấy 4 cộng với 7 được 11. Lưu 1 vào kết qua và nhớ 1</li>
+            <li> Lấy 3 cộng với 9 được 12, cộng tiếp với nhớ 1 được 13, lưu 3 vào kết quả được kết quả với là "31", ghi nhớ 1</li>
+            <li>Lặp lại các bước trên</li>
+        </ol>
+    </div>
+    
     <div class="contaner">
         Số thứ nhất:
         <div class="form-group">
@@ -20,7 +30,7 @@
         <div class="form-group">
             <input type="text" class="form-control" id="num2" placeholder="Hãy nhập vào số thứ hai" name="text2">
         </div>
-        <p class="wr"> (Hãy chắc chắn rằng bạn đã nhập các giá trị HỢP LỆ vào các ô trên, không chứa bất kỳ ký tự nào khác ngoài ký tự SỐ)</p>
+        <p class="wr"> (Hãy chắc chắn rằng bạn đã nhập các giá trị HỢP LỆ vào các ô trên, không chứa bất kỳ ký tự nào khác ngoài ký tự SỐ từ 0-9)</p>
         <p class="wr"> Vui lòng tự kiểm tra vì nhà phát triển chưa phát triển tính năng kiểm tra đối số nhập vào có hợp lệ hay không!</p>
         <button type="button" class="btn btn-primary" id="plus" onclick="plusFunction()">Thực hiện phép cộng hai số</button>
 

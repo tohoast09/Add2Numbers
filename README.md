@@ -1,13 +1,13 @@
 # Project Add 2 Numbers
 ## Description
 
-    In the case where we want to store a large quantity and a very large value, using the string data type in JavaScript would be more optimal than the number data type.
+In the case where we want to store a large quantity and a very large value, using the string data type in JavaScript would be more optimal than the number data type.
 
-    The number data type in JavaScript has limitations on the value range. Although JavaScript supports the number data type to represent large integers, the precision of large integers is limited by the floating-point representation system known as "Double-precision floating-point format". This means that large integers will not be accurately represented to the last digit.
+The number data type in JavaScript has limitations on the value range. Although JavaScript supports the number data type to represent large integers, the precision of large integers is limited by the floating-point representation system known as "Double-precision floating-point format". This means that large integers will not be accurately represented to the last digit.
 
-    On the other hand, using the string data type to store large numbers allows us to maintain the full precision of the number string without losing any trailing digits. By manipulating the string of numbers, we can perform operations and handle the data as needed.
+On the other hand, using the string data type to store large numbers allows us to maintain the full precision of the number string without losing any trailing digits. By manipulating the string of numbers, we can perform operations and handle the data as needed.
 
-    Based on the above reasons, I am undertaking this project to efficiently perform addition operations on large numbers.
+Based on the above reasons, I am undertaking this project to efficiently perform addition operations on large numbers.
 
 This project demonstrates a web application that performs addition of large numbers using JavaScript. It provides a user interface where two numbers can be entered, and upon clicking a button, the sum of the numbers is calculated and displayed. The application also keeps a history of the addition operations and allows downloading the logging file.
 
